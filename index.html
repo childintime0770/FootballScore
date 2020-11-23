@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Score</title>
+    <link rel="icon" href="./assets/images/kick-off.png">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="football-table">
+        <table>
+            <thead>
+                <tr>
+                    <th class="pointer"><img src="./assets/images/Untitled-1234.svg" alt="numbered-list"></td>
+                    <th class="team">TEAM</td>
+                    <th class="pointer">MP</td>
+                    <th class="goals">G F/A</td>
+                    <th class="pointer">GDIFF</td>
+                    <th class="pointer">PTS</td>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+    <div class="select-section">
+        <select id="first-select-object">
+            <option class="title-option" value="0">Chose your team</option>
+        </select>
+
+            <input type="text" id="first-team-score">
+            <input type="text" id="second-team-score">
+
+        <select id="second-select-object">
+            <option class="title-option" value="0">Chose your team</option>
+        </select>
+    </div>
+    <div class="button" id="button">
+        <span>SUBMIT</span>
+    </div>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>

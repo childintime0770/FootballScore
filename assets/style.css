@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.football-table {
+    margin: 20px auto;
+    width: 553px;
+}
+
+.football-table td {
+    border-bottom: 1px solid silver;
+    font-size: 20px;
+    text-align: center;
+    color: slategray;
+}
+
+.football-table thead th {
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.pointer {
+    width: 60px;
+}
+
+.team {
+    padding-left: 10px;
+    width: 200px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.goals {
+    width: 100px;
+}
+
+.select-section {
+    width: 370px;
+    margin: auto;
+}
+
+.select-section input {
+    width: 40px;
+}
+
+.title-option {
+    color: gainsboro;
+}
+
+.button {
+    width: 100px;
+    margin: auto;
+    background-color: rgb(172, 172, 172);
+    color: white;
+    margin-top: 20px;
+    height: 25px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button :hover {
+    color: green;   
+}
